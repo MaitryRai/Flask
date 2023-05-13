@@ -1,0 +1,7 @@
+//Setting debug to True in our flask app, enables us to not restart the server everytime.
+
+from flask import Flask
+app=Flask(__name__)
+
+if __name__=="__main__":
+    app.run(debug=True)
